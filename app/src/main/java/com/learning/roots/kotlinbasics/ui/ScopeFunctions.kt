@@ -25,9 +25,7 @@ fun main() {
  * This let function often used to provide null safe calls
  * */
 fun letScopeFunctionDemo() {
-
     var message: String? = null
-
     /**
      * it will not print anything as it will check if name
      * is null or not before executing the lambda expression
