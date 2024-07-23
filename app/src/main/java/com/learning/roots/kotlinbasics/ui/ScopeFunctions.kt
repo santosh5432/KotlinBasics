@@ -21,8 +21,7 @@ fun main() {
     alsoScopeFunctionDemo()
 }
 
-
-/**-------------------------------------------------------
+/**--------------------------------------------------------------------------------------------------------------------
  * This let function often used to provide null safe calls
  * */
 fun letScopeFunctionDemo() {
@@ -44,7 +43,7 @@ fun letScopeFunctionDemo() {
 }
 
 
-/**-------------------------------------------------------------------------------------------
+/**-------------------------------------------------------------------------------------------------------------------------
  * This with function allow to operate on object without calling it's member with dot notation
  */
 fun withScopeFunctionDemo() {
@@ -58,8 +57,7 @@ fun withScopeFunctionDemo() {
     }
 }
 
-
-/**---------------------------------------------------------------------------------------------------
+/**--------------------------------------------------------------------------------------------------------------------------
  * This function is useful to initialize (apply changes to object,as name suggests) the object members
  */
 fun applyScopeFunctionDemo() {
@@ -74,7 +72,7 @@ fun applyScopeFunctionDemo() {
     }
 }
 
-/**
+/**---------------------------------------------------------------------------------------------------------------------------
  * We can use this function for null safety and to perform some operations on object member as well
  */
 fun runScopeFunctionDemo() {
@@ -96,7 +94,7 @@ fun runScopeFunctionDemo() {
     }
 }
 
-/**
+/**---------------------------------------------------------------------------------------------------------------------------
  * We use this function when we have to perform some additional task on object when we have already initialized object members
  */
 fun alsoScopeFunctionDemo() {
