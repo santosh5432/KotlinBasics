@@ -1,7 +1,17 @@
 package com.learning.roots.kotlinbasics.ui
 
 /**
- * scope functions are a set of functions available in Kotlin that allow for concise and convenient operations on objects within a specific scope
+ * scope functions are a set of functions available in Kotlin that allows concise and convenient operations
+ * on objects within a specific scope,that make your code more concise and readable
+ */
+
+/**
+Function	Object Reference	Return Value	Is Extension
+let	            it	            Lambda result	    Yes
+run	            this	        Lambda result	    Yes
+with	        this	        Lambda result	    No
+apply	        this	        Context object	    Yes
+also	        it	            Context object	    Yes
  */
 
 /**
