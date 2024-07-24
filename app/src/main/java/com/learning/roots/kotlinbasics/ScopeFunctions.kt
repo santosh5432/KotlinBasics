@@ -1,4 +1,4 @@
-package com.learning.roots.kotlinbasics.ui
+package com.learning.roots.kotlinbasics
 
 /**
  * scope functions are a set of functions available in Kotlin that allows concise and convenient operations

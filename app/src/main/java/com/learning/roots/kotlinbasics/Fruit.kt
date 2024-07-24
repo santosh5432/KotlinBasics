@@ -1,4 +1,4 @@
-package com.learning.roots.kotlinbasics.ui
+package com.learning.roots.kotlinbasics
 
 class Fruit {
     lateinit var name: String
