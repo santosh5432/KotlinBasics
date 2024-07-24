@@ -38,14 +38,14 @@ fun letScopeFunctionDemo() {
     var message: String? = null
     /**
      * it will not print anything as it will check if name
-     * is null or not before executing the lambda expression
+     * is null or not, before executing the lambda expression
      */
     message?.let { print(it) }
     message = "Believe in yourself,you are awesome!"
 
     /**
      * now print statement of lambda block will be executed
-     * as now message have value means it's not null anymore
+     * as now message have value, means it's not null anymore
      */
     message?.let { println("letScopeFunction: $it") }
 }
@@ -85,8 +85,9 @@ fun applyScopeFunctionDemo() {
  */
 fun runScopeFunctionDemo() {
     var fruit: Fruit? = null
-    /** This lambda expression will get executed if fruit is not null and we can access name(member of fruit object) directly in lambda block
-     * So it is behaving like let and with scope functions at same time
+    /** This lambda expression will get executed if fruit is not null and we can access name(member of fruit object)
+     * directly in lambda block, So it is behaving like let and with scope functions at same time
+     *
      */
     fruit?.run {
         print(name)
